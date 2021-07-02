@@ -1,0 +1,542 @@
+Settings:
+{'num_colors': 16, 'alpha': 1, 'beta': 0, 'gamma': 0, 'color_jitter': 1, 'color_norm': 4, 'label_smooth': 0.0, 'soften': 1, 'dataset': 'cifar10', 'arch': 'alexnet', 'num_workers': 4, 'batch_size': 128, 'epochs': 60, 'lr': 0.01, 'weight_decay': 0.0005, 'momentum': 0.5, 'log_interval': 100, 'backbone': 'unet', 'resume': None, 'train_classifier': False, 'visualize': False, 'seed': None}
+Training...
+Train Epoch: 1, Batch:100, 	Loss: 5.444268, Prec: 14.3%, Time: 14.012
+Train Epoch: 1, Batch:200, 	Loss: 4.439202, Prec: 15.0%, Time: 26.227
+Train Epoch: 1, Batch:300, 	Loss: 3.876904, Prec: 18.8%, Time: 38.465
+Train Epoch: 1, Batch:391, 	Loss: 3.466217, Prec: 22.7%, Time: 50.528
+Testing...
+Test, Loss: 2.551590, Prec: 43.7%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 685.7; Bit per pixel: 0.670
+Training...
+Train Epoch: 2, Batch:100, 	Loss: 1.972437, Prec: 39.4%, Time: 12.393
+Train Epoch: 2, Batch:200, 	Loss: 1.904010, Prec: 40.8%, Time: 24.595
+Train Epoch: 2, Batch:300, 	Loss: 1.834188, Prec: 42.3%, Time: 36.793
+Train Epoch: 2, Batch:391, 	Loss: 1.804677, Prec: 43.0%, Time: 47.888
+Testing...
+Test, Loss: 2.446977, Prec: 47.8%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 817.3; Bit per pixel: 0.798
+Training...
+Train Epoch: 3, Batch:100, 	Loss: 1.685052, Prec: 45.2%, Time: 12.440
+Train Epoch: 3, Batch:200, 	Loss: 1.676376, Prec: 46.1%, Time: 24.669
+Train Epoch: 3, Batch:300, 	Loss: 1.633842, Prec: 47.6%, Time: 36.903
+Train Epoch: 3, Batch:391, 	Loss: 1.609296, Prec: 48.3%, Time: 48.071
+Testing...
+Test, Loss: 1.850459, Prec: 56.8%, time: 9.8
+Average number of colors per image: 16.0; 
+Average image size: 837.2; Bit per pixel: 0.818
+Training...
+Train Epoch: 4, Batch:100, 	Loss: 1.375236, Prec: 55.2%, Time: 12.399
+Train Epoch: 4, Batch:200, 	Loss: 1.411161, Prec: 54.4%, Time: 24.617
+Train Epoch: 4, Batch:300, 	Loss: 1.411964, Prec: 54.6%, Time: 36.822
+Train Epoch: 4, Batch:391, 	Loss: 1.386554, Prec: 55.4%, Time: 47.930
+Testing...
+Test, Loss: 1.829300, Prec: 59.3%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 847.7; Bit per pixel: 0.828
+Training...
+Train Epoch: 5, Batch:100, 	Loss: 1.274638, Prec: 58.2%, Time: 12.456
+Train Epoch: 5, Batch:200, 	Loss: 1.253501, Prec: 58.8%, Time: 24.673
+Train Epoch: 5, Batch:300, 	Loss: 1.269127, Prec: 58.5%, Time: 36.883
+Train Epoch: 5, Batch:391, 	Loss: 1.252362, Prec: 58.9%, Time: 48.003
+Testing...
+Test, Loss: 1.631553, Prec: 63.5%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 852.4; Bit per pixel: 0.832
+Training...
+Train Epoch: 6, Batch:100, 	Loss: 1.199111, Prec: 61.1%, Time: 12.420
+Train Epoch: 6, Batch:200, 	Loss: 1.189405, Prec: 61.1%, Time: 24.640
+Train Epoch: 6, Batch:300, 	Loss: 1.164777, Prec: 61.9%, Time: 36.863
+Train Epoch: 6, Batch:391, 	Loss: 1.167700, Prec: 61.9%, Time: 47.980
+Testing...
+Test, Loss: 1.592524, Prec: 63.7%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 869.3; Bit per pixel: 0.849
+Training...
+Train Epoch: 7, Batch:100, 	Loss: 1.058384, Prec: 65.5%, Time: 12.395
+Train Epoch: 7, Batch:200, 	Loss: 1.118323, Prec: 64.2%, Time: 24.610
+Train Epoch: 7, Batch:300, 	Loss: 1.102204, Prec: 64.7%, Time: 36.814
+Train Epoch: 7, Batch:391, 	Loss: 1.102419, Prec: 64.5%, Time: 47.922
+Testing...
+Test, Loss: 1.603341, Prec: 65.1%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 892.9; Bit per pixel: 0.872
+Training...
+Train Epoch: 8, Batch:100, 	Loss: 1.042167, Prec: 66.1%, Time: 12.413
+Train Epoch: 8, Batch:200, 	Loss: 1.032988, Prec: 66.3%, Time: 24.634
+Train Epoch: 8, Batch:300, 	Loss: 1.024903, Prec: 66.6%, Time: 36.841
+Train Epoch: 8, Batch:391, 	Loss: 1.017542, Prec: 66.8%, Time: 47.968
+Testing...
+Test, Loss: 1.411700, Prec: 67.4%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 891.4; Bit per pixel: 0.871
+Training...
+Train Epoch: 9, Batch:100, 	Loss: 1.034741, Prec: 66.9%, Time: 12.388
+Train Epoch: 9, Batch:200, 	Loss: 1.021799, Prec: 67.5%, Time: 24.602
+Train Epoch: 9, Batch:300, 	Loss: 0.986198, Prec: 68.2%, Time: 36.812
+Train Epoch: 9, Batch:391, 	Loss: 0.979244, Prec: 68.3%, Time: 47.921
+Testing...
+Test, Loss: 1.340743, Prec: 69.1%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 905.3; Bit per pixel: 0.884
+Training...
+Train Epoch: 10, Batch:100, 	Loss: 0.922348, Prec: 69.8%, Time: 12.413
+Train Epoch: 10, Batch:200, 	Loss: 0.917969, Prec: 70.0%, Time: 24.674
+Train Epoch: 10, Batch:300, 	Loss: 0.948750, Prec: 69.2%, Time: 36.902
+Train Epoch: 10, Batch:391, 	Loss: 0.970820, Prec: 68.6%, Time: 48.007
+Testing...
+Test, Loss: 1.385182, Prec: 67.4%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 923.0; Bit per pixel: 0.901
+Training...
+Train Epoch: 11, Batch:100, 	Loss: 0.905599, Prec: 70.3%, Time: 12.384
+Train Epoch: 11, Batch:200, 	Loss: 0.897970, Prec: 70.8%, Time: 24.598
+Train Epoch: 11, Batch:300, 	Loss: 0.895447, Prec: 71.0%, Time: 36.810
+Train Epoch: 11, Batch:391, 	Loss: 0.896120, Prec: 71.1%, Time: 47.937
+Testing...
+Test, Loss: 1.223257, Prec: 69.9%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 924.4; Bit per pixel: 0.903
+Training...
+Train Epoch: 12, Batch:100, 	Loss: 0.877555, Prec: 71.5%, Time: 12.395
+Train Epoch: 12, Batch:200, 	Loss: 0.865155, Prec: 72.2%, Time: 24.617
+Train Epoch: 12, Batch:300, 	Loss: 0.859695, Prec: 72.6%, Time: 36.841
+Train Epoch: 12, Batch:391, 	Loss: 0.851716, Prec: 72.6%, Time: 47.946
+Testing...
+Test, Loss: 1.217098, Prec: 71.9%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 923.1; Bit per pixel: 0.902
+Training...
+Train Epoch: 13, Batch:100, 	Loss: 0.797364, Prec: 74.2%, Time: 12.389
+Train Epoch: 13, Batch:200, 	Loss: 0.796622, Prec: 74.3%, Time: 24.600
+Train Epoch: 13, Batch:300, 	Loss: 0.796953, Prec: 74.2%, Time: 36.805
+Train Epoch: 13, Batch:391, 	Loss: 0.794683, Prec: 74.4%, Time: 47.933
+Testing...
+Test, Loss: 1.250549, Prec: 71.9%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 931.0; Bit per pixel: 0.909
+Training...
+Train Epoch: 14, Batch:100, 	Loss: 0.750987, Prec: 75.9%, Time: 12.401
+Train Epoch: 14, Batch:200, 	Loss: 0.754038, Prec: 75.6%, Time: 24.609
+Train Epoch: 14, Batch:300, 	Loss: 0.783767, Prec: 74.8%, Time: 36.841
+Train Epoch: 14, Batch:391, 	Loss: 0.779224, Prec: 75.0%, Time: 47.949
+Testing...
+Test, Loss: 1.234119, Prec: 72.5%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 920.1; Bit per pixel: 0.899
+Training...
+Train Epoch: 15, Batch:100, 	Loss: 0.831770, Prec: 73.0%, Time: 12.397
+Train Epoch: 15, Batch:200, 	Loss: 0.786160, Prec: 74.8%, Time: 24.611
+Train Epoch: 15, Batch:300, 	Loss: 0.760858, Prec: 75.5%, Time: 36.831
+Train Epoch: 15, Batch:391, 	Loss: 0.745948, Prec: 75.8%, Time: 47.987
+Testing...
+Test, Loss: 1.162491, Prec: 73.3%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 932.7; Bit per pixel: 0.911
+Training...
+Train Epoch: 16, Batch:100, 	Loss: 0.783475, Prec: 75.4%, Time: 12.435
+Train Epoch: 16, Batch:200, 	Loss: 0.752457, Prec: 76.2%, Time: 24.666
+Train Epoch: 16, Batch:300, 	Loss: 0.737674, Prec: 76.6%, Time: 36.932
+Train Epoch: 16, Batch:391, 	Loss: 0.728052, Prec: 76.8%, Time: 48.102
+Testing...
+Test, Loss: 1.158988, Prec: 73.6%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 926.8; Bit per pixel: 0.905
+Training...
+Train Epoch: 17, Batch:100, 	Loss: 0.689942, Prec: 78.0%, Time: 12.450
+Train Epoch: 17, Batch:200, 	Loss: 0.665711, Prec: 78.5%, Time: 24.720
+Train Epoch: 17, Batch:300, 	Loss: 0.671166, Prec: 78.3%, Time: 37.011
+Train Epoch: 17, Batch:391, 	Loss: 0.671479, Prec: 78.2%, Time: 48.205
+Testing...
+Test, Loss: 1.068836, Prec: 75.2%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 932.8; Bit per pixel: 0.911
+Training...
+Train Epoch: 18, Batch:100, 	Loss: 0.803728, Prec: 74.6%, Time: 12.376
+Train Epoch: 18, Batch:200, 	Loss: 0.755808, Prec: 76.0%, Time: 24.610
+Train Epoch: 18, Batch:300, 	Loss: 0.717508, Prec: 77.1%, Time: 36.883
+Train Epoch: 18, Batch:391, 	Loss: 0.690377, Prec: 77.9%, Time: 48.040
+Testing...
+Test, Loss: 1.123710, Prec: 74.5%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 934.6; Bit per pixel: 0.913
+Training...
+Train Epoch: 19, Batch:100, 	Loss: 0.641458, Prec: 79.5%, Time: 12.388
+Train Epoch: 19, Batch:200, 	Loss: 0.696610, Prec: 78.1%, Time: 24.606
+Train Epoch: 19, Batch:300, 	Loss: 0.690912, Prec: 77.9%, Time: 36.884
+Train Epoch: 19, Batch:391, 	Loss: 0.706273, Prec: 77.5%, Time: 48.051
+Testing...
+Test, Loss: 1.095517, Prec: 74.7%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 932.7; Bit per pixel: 0.911
+Training...
+Train Epoch: 20, Batch:100, 	Loss: 0.632544, Prec: 79.7%, Time: 12.454
+Train Epoch: 20, Batch:200, 	Loss: 0.661676, Prec: 78.8%, Time: 24.730
+Train Epoch: 20, Batch:300, 	Loss: 0.678149, Prec: 78.4%, Time: 37.002
+Train Epoch: 20, Batch:391, 	Loss: 0.675043, Prec: 78.4%, Time: 48.172
+Testing...
+Test, Loss: 1.108375, Prec: 74.5%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 931.7; Bit per pixel: 0.910
+Training...
+Train Epoch: 21, Batch:100, 	Loss: 0.909743, Prec: 70.2%, Time: 12.444
+Train Epoch: 21, Batch:200, 	Loss: 0.946127, Prec: 69.6%, Time: 24.711
+Train Epoch: 21, Batch:300, 	Loss: 0.922904, Prec: 70.1%, Time: 36.980
+Train Epoch: 21, Batch:391, 	Loss: 0.943229, Prec: 69.7%, Time: 48.151
+Testing...
+Test, Loss: 1.352813, Prec: 70.2%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 943.3; Bit per pixel: 0.921
+Training...
+Train Epoch: 22, Batch:100, 	Loss: 0.849915, Prec: 72.7%, Time: 12.473
+Train Epoch: 22, Batch:200, 	Loss: 0.867696, Prec: 72.1%, Time: 24.737
+Train Epoch: 22, Batch:300, 	Loss: 0.870603, Prec: 72.1%, Time: 37.005
+Train Epoch: 22, Batch:391, 	Loss: 0.861215, Prec: 72.3%, Time: 48.174
+Testing...
+Test, Loss: 1.491486, Prec: 69.4%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 928.7; Bit per pixel: 0.907
+Training...
+Train Epoch: 23, Batch:100, 	Loss: 0.896290, Prec: 72.5%, Time: 12.471
+Train Epoch: 23, Batch:200, 	Loss: 0.850060, Prec: 73.6%, Time: 24.748
+Train Epoch: 23, Batch:300, 	Loss: 0.848006, Prec: 73.4%, Time: 37.021
+Train Epoch: 23, Batch:391, 	Loss: 0.867132, Prec: 72.8%, Time: 48.185
+Testing...
+Test, Loss: 1.526890, Prec: 67.9%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 945.2; Bit per pixel: 0.923
+Training...
+Train Epoch: 24, Batch:100, 	Loss: 0.816142, Prec: 74.3%, Time: 12.477
+Train Epoch: 24, Batch:200, 	Loss: 0.800923, Prec: 74.5%, Time: 24.745
+Train Epoch: 24, Batch:300, 	Loss: 0.819712, Prec: 74.1%, Time: 37.012
+Train Epoch: 24, Batch:391, 	Loss: 0.806579, Prec: 74.5%, Time: 48.163
+Testing...
+Test, Loss: 1.315780, Prec: 71.8%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 924.1; Bit per pixel: 0.902
+Training...
+Train Epoch: 25, Batch:100, 	Loss: 0.830669, Prec: 73.9%, Time: 12.443
+Train Epoch: 25, Batch:200, 	Loss: 0.854145, Prec: 73.0%, Time: 24.708
+Train Epoch: 25, Batch:300, 	Loss: 0.853301, Prec: 73.2%, Time: 36.978
+Train Epoch: 25, Batch:391, 	Loss: 0.833371, Prec: 73.8%, Time: 48.141
+Testing...
+Test, Loss: 1.232669, Prec: 72.3%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 949.3; Bit per pixel: 0.927
+Training...
+Train Epoch: 26, Batch:100, 	Loss: 0.754823, Prec: 76.4%, Time: 12.461
+Train Epoch: 26, Batch:200, 	Loss: 0.723263, Prec: 77.3%, Time: 24.738
+Train Epoch: 26, Batch:300, 	Loss: 0.743636, Prec: 76.8%, Time: 37.010
+Train Epoch: 26, Batch:391, 	Loss: 0.761724, Prec: 76.2%, Time: 48.182
+Testing...
+Test, Loss: 1.243632, Prec: 71.9%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 976.0; Bit per pixel: 0.953
+Training...
+Train Epoch: 27, Batch:100, 	Loss: 0.718228, Prec: 77.4%, Time: 12.492
+Train Epoch: 27, Batch:200, 	Loss: 0.728448, Prec: 77.1%, Time: 24.756
+Train Epoch: 27, Batch:300, 	Loss: 0.734847, Prec: 76.8%, Time: 37.048
+Train Epoch: 27, Batch:391, 	Loss: 0.732815, Prec: 76.8%, Time: 48.249
+Testing...
+Test, Loss: 1.209184, Prec: 71.7%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 981.8; Bit per pixel: 0.959
+Training...
+Train Epoch: 28, Batch:100, 	Loss: 0.656933, Prec: 79.2%, Time: 12.444
+Train Epoch: 28, Batch:200, 	Loss: 0.674980, Prec: 78.7%, Time: 24.705
+Train Epoch: 28, Batch:300, 	Loss: 0.683221, Prec: 78.4%, Time: 36.981
+Train Epoch: 28, Batch:391, 	Loss: 0.682147, Prec: 78.6%, Time: 48.157
+Testing...
+Test, Loss: 1.184823, Prec: 74.5%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 969.9; Bit per pixel: 0.947
+Training...
+Train Epoch: 29, Batch:100, 	Loss: 0.650917, Prec: 79.9%, Time: 12.455
+Train Epoch: 29, Batch:200, 	Loss: 0.663437, Prec: 79.6%, Time: 24.730
+Train Epoch: 29, Batch:300, 	Loss: 0.680644, Prec: 79.0%, Time: 37.008
+Train Epoch: 29, Batch:391, 	Loss: 0.678968, Prec: 78.9%, Time: 48.170
+Testing...
+Test, Loss: 1.017874, Prec: 76.5%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 965.1; Bit per pixel: 0.942
+Training...
+Train Epoch: 30, Batch:100, 	Loss: 0.639597, Prec: 80.1%, Time: 12.457
+Train Epoch: 30, Batch:200, 	Loss: 0.636612, Prec: 80.1%, Time: 24.714
+Train Epoch: 30, Batch:300, 	Loss: 0.653374, Prec: 79.7%, Time: 36.986
+Train Epoch: 30, Batch:391, 	Loss: 0.642337, Prec: 80.0%, Time: 48.148
+Testing...
+Test, Loss: 1.131891, Prec: 75.6%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 970.1; Bit per pixel: 0.947
+Training...
+Train Epoch: 31, Batch:100, 	Loss: 0.582658, Prec: 81.8%, Time: 12.438
+Train Epoch: 31, Batch:200, 	Loss: 0.575418, Prec: 81.9%, Time: 24.709
+Train Epoch: 31, Batch:300, 	Loss: 0.584179, Prec: 81.6%, Time: 36.980
+Train Epoch: 31, Batch:391, 	Loss: 0.577825, Prec: 81.8%, Time: 48.146
+Testing...
+Test, Loss: 1.077813, Prec: 76.6%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 975.0; Bit per pixel: 0.952
+Training...
+Train Epoch: 32, Batch:100, 	Loss: 0.595627, Prec: 81.5%, Time: 12.476
+Train Epoch: 32, Batch:200, 	Loss: 0.566825, Prec: 82.2%, Time: 24.734
+Train Epoch: 32, Batch:300, 	Loss: 0.546742, Prec: 82.9%, Time: 37.007
+Train Epoch: 32, Batch:391, 	Loss: 0.565925, Prec: 82.4%, Time: 48.158
+Testing...
+Test, Loss: 1.027764, Prec: 76.9%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 977.7; Bit per pixel: 0.955
+Training...
+Train Epoch: 33, Batch:100, 	Loss: 0.585498, Prec: 81.6%, Time: 12.438
+Train Epoch: 33, Batch:200, 	Loss: 0.537713, Prec: 83.2%, Time: 24.694
+Train Epoch: 33, Batch:300, 	Loss: 0.528498, Prec: 83.4%, Time: 36.966
+Train Epoch: 33, Batch:391, 	Loss: 0.523326, Prec: 83.6%, Time: 48.146
+Testing...
+Test, Loss: 1.032595, Prec: 77.9%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 961.3; Bit per pixel: 0.939
+Training...
+Train Epoch: 34, Batch:100, 	Loss: 0.479226, Prec: 85.0%, Time: 12.458
+Train Epoch: 34, Batch:200, 	Loss: 0.479818, Prec: 85.0%, Time: 24.724
+Train Epoch: 34, Batch:300, 	Loss: 0.485165, Prec: 84.9%, Time: 36.993
+Train Epoch: 34, Batch:391, 	Loss: 0.499026, Prec: 84.5%, Time: 48.149
+Testing...
+Test, Loss: 0.986467, Prec: 78.5%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 973.1; Bit per pixel: 0.950
+Training...
+Train Epoch: 35, Batch:100, 	Loss: 0.501696, Prec: 84.3%, Time: 12.430
+Train Epoch: 35, Batch:200, 	Loss: 0.494886, Prec: 84.5%, Time: 24.694
+Train Epoch: 35, Batch:300, 	Loss: 0.487685, Prec: 84.7%, Time: 36.967
+Train Epoch: 35, Batch:391, 	Loss: 0.489925, Prec: 84.6%, Time: 48.129
+Testing...
+Test, Loss: 0.868022, Prec: 80.4%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 972.2; Bit per pixel: 0.949
+Training...
+Train Epoch: 36, Batch:100, 	Loss: 0.441578, Prec: 86.3%, Time: 12.435
+Train Epoch: 36, Batch:200, 	Loss: 0.462335, Prec: 85.6%, Time: 24.685
+Train Epoch: 36, Batch:300, 	Loss: 0.456260, Prec: 85.7%, Time: 36.951
+Train Epoch: 36, Batch:391, 	Loss: 0.454547, Prec: 85.8%, Time: 48.128
+Testing...
+Test, Loss: 0.887948, Prec: 80.7%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 966.2; Bit per pixel: 0.944
+Training...
+Train Epoch: 37, Batch:100, 	Loss: 0.454468, Prec: 86.2%, Time: 12.417
+Train Epoch: 37, Batch:200, 	Loss: 0.432925, Prec: 86.8%, Time: 24.685
+Train Epoch: 37, Batch:300, 	Loss: 0.444209, Prec: 86.5%, Time: 36.952
+Train Epoch: 37, Batch:391, 	Loss: 0.436965, Prec: 86.7%, Time: 48.129
+Testing...
+Test, Loss: 0.864622, Prec: 81.0%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 972.4; Bit per pixel: 0.950
+Training...
+Train Epoch: 38, Batch:100, 	Loss: 0.475709, Prec: 85.1%, Time: 12.468
+Train Epoch: 38, Batch:200, 	Loss: 0.450998, Prec: 85.9%, Time: 24.745
+Train Epoch: 38, Batch:300, 	Loss: 0.439946, Prec: 86.3%, Time: 37.023
+Train Epoch: 38, Batch:391, 	Loss: 0.439338, Prec: 86.2%, Time: 48.197
+Testing...
+Test, Loss: 0.881717, Prec: 80.8%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 971.8; Bit per pixel: 0.949
+Training...
+Train Epoch: 39, Batch:100, 	Loss: 0.411906, Prec: 87.5%, Time: 12.451
+Train Epoch: 39, Batch:200, 	Loss: 0.415146, Prec: 87.2%, Time: 24.733
+Train Epoch: 39, Batch:300, 	Loss: 0.412796, Prec: 87.1%, Time: 37.005
+Train Epoch: 39, Batch:391, 	Loss: 0.410451, Prec: 87.2%, Time: 48.155
+Testing...
+Test, Loss: 0.869644, Prec: 81.0%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 974.1; Bit per pixel: 0.951
+Training...
+Train Epoch: 40, Batch:100, 	Loss: 0.406627, Prec: 87.2%, Time: 12.455
+Train Epoch: 40, Batch:200, 	Loss: 0.397275, Prec: 87.6%, Time: 24.750
+Train Epoch: 40, Batch:300, 	Loss: 0.407576, Prec: 87.4%, Time: 37.031
+Train Epoch: 40, Batch:391, 	Loss: 0.418649, Prec: 87.1%, Time: 48.207
+Testing...
+Test, Loss: 0.847636, Prec: 81.1%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 974.1; Bit per pixel: 0.951
+Training...
+Train Epoch: 41, Batch:100, 	Loss: 0.645432, Prec: 79.8%, Time: 12.455
+Train Epoch: 41, Batch:200, 	Loss: 0.647729, Prec: 79.8%, Time: 24.738
+Train Epoch: 41, Batch:300, 	Loss: 0.663615, Prec: 79.3%, Time: 37.014
+Train Epoch: 41, Batch:391, 	Loss: 0.664533, Prec: 79.4%, Time: 48.168
+Testing...
+Test, Loss: 1.482032, Prec: 72.9%, time: 9.9
+Average number of colors per image: 16.0; 
+Average image size: 944.8; Bit per pixel: 0.923
+Training...
+Train Epoch: 42, Batch:100, 	Loss: 0.619504, Prec: 80.8%, Time: 12.461
+Train Epoch: 42, Batch:200, 	Loss: 0.631609, Prec: 80.6%, Time: 24.736
+Train Epoch: 42, Batch:300, 	Loss: 0.667739, Prec: 79.6%, Time: 36.996
+Train Epoch: 42, Batch:391, 	Loss: 0.667340, Prec: 79.6%, Time: 48.156
+Testing...
+Test, Loss: 1.192651, Prec: 74.3%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 986.0; Bit per pixel: 0.963
+Training...
+Train Epoch: 43, Batch:100, 	Loss: 0.659049, Prec: 79.7%, Time: 12.438
+Train Epoch: 43, Batch:200, 	Loss: 0.665055, Prec: 79.6%, Time: 24.705
+Train Epoch: 43, Batch:300, 	Loss: 0.649619, Prec: 80.0%, Time: 36.987
+Train Epoch: 43, Batch:391, 	Loss: 0.631965, Prec: 80.5%, Time: 48.172
+Testing...
+Test, Loss: 1.423952, Prec: 74.2%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 987.3; Bit per pixel: 0.964
+Training...
+Train Epoch: 44, Batch:100, 	Loss: 0.601647, Prec: 81.1%, Time: 12.470
+Train Epoch: 44, Batch:200, 	Loss: 0.597753, Prec: 81.4%, Time: 24.745
+Train Epoch: 44, Batch:300, 	Loss: 0.613925, Prec: 80.9%, Time: 37.030
+Train Epoch: 44, Batch:391, 	Loss: 0.622632, Prec: 80.7%, Time: 48.200
+Testing...
+Test, Loss: 1.104060, Prec: 75.0%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 965.7; Bit per pixel: 0.943
+Training...
+Train Epoch: 45, Batch:100, 	Loss: 0.574398, Prec: 82.1%, Time: 12.443
+Train Epoch: 45, Batch:200, 	Loss: 0.571870, Prec: 82.1%, Time: 24.709
+Train Epoch: 45, Batch:300, 	Loss: 0.574153, Prec: 82.1%, Time: 36.982
+Train Epoch: 45, Batch:391, 	Loss: 0.566907, Prec: 82.4%, Time: 48.149
+Testing...
+Test, Loss: 1.157029, Prec: 76.6%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 968.2; Bit per pixel: 0.945
+Training...
+Train Epoch: 46, Batch:100, 	Loss: 0.510949, Prec: 84.0%, Time: 12.443
+Train Epoch: 46, Batch:200, 	Loss: 0.545318, Prec: 83.2%, Time: 24.707
+Train Epoch: 46, Batch:300, 	Loss: 0.539717, Prec: 83.3%, Time: 37.007
+Train Epoch: 46, Batch:391, 	Loss: 0.555520, Prec: 82.8%, Time: 48.163
+Testing...
+Test, Loss: 1.036864, Prec: 76.9%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 978.7; Bit per pixel: 0.956
+Training...
+Train Epoch: 47, Batch:100, 	Loss: 0.527223, Prec: 83.3%, Time: 12.468
+Train Epoch: 47, Batch:200, 	Loss: 0.528102, Prec: 83.6%, Time: 24.741
+Train Epoch: 47, Batch:300, 	Loss: 0.516873, Prec: 83.9%, Time: 37.011
+Train Epoch: 47, Batch:391, 	Loss: 0.518164, Prec: 84.0%, Time: 48.183
+Testing...
+Test, Loss: 1.233590, Prec: 75.5%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 968.7; Bit per pixel: 0.946
+Training...
+Train Epoch: 48, Batch:100, 	Loss: 0.515803, Prec: 83.5%, Time: 12.424
+Train Epoch: 48, Batch:200, 	Loss: 0.505352, Prec: 84.0%, Time: 24.695
+Train Epoch: 48, Batch:300, 	Loss: 0.503310, Prec: 84.3%, Time: 36.963
+Train Epoch: 48, Batch:391, 	Loss: 0.504579, Prec: 84.3%, Time: 48.120
+Testing...
+Test, Loss: 0.929234, Prec: 79.4%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 989.9; Bit per pixel: 0.967
+Training...
+Train Epoch: 49, Batch:100, 	Loss: 0.468127, Prec: 85.6%, Time: 12.516
+Train Epoch: 49, Batch:200, 	Loss: 0.489593, Prec: 85.1%, Time: 24.790
+Train Epoch: 49, Batch:300, 	Loss: 0.469306, Prec: 85.7%, Time: 37.058
+Train Epoch: 49, Batch:391, 	Loss: 0.460646, Prec: 85.8%, Time: 48.228
+Testing...
+Test, Loss: 0.862814, Prec: 80.8%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 995.9; Bit per pixel: 0.973
+Training...
+Train Epoch: 50, Batch:100, 	Loss: 0.493520, Prec: 84.8%, Time: 12.437
+Train Epoch: 50, Batch:200, 	Loss: 0.484500, Prec: 85.1%, Time: 24.715
+Train Epoch: 50, Batch:300, 	Loss: 0.472878, Prec: 85.5%, Time: 37.002
+Train Epoch: 50, Batch:391, 	Loss: 0.474699, Prec: 85.5%, Time: 48.163
+Testing...
+Test, Loss: 0.942861, Prec: 79.9%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 986.3; Bit per pixel: 0.963
+Training...
+Train Epoch: 51, Batch:100, 	Loss: 0.417374, Prec: 87.1%, Time: 12.432
+Train Epoch: 51, Batch:200, 	Loss: 0.414814, Prec: 87.3%, Time: 24.700
+Train Epoch: 51, Batch:300, 	Loss: 0.407428, Prec: 87.5%, Time: 36.970
+Train Epoch: 51, Batch:391, 	Loss: 0.410409, Prec: 87.4%, Time: 48.147
+Testing...
+Test, Loss: 0.857076, Prec: 81.3%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 996.0; Bit per pixel: 0.973
+Training...
+Train Epoch: 52, Batch:100, 	Loss: 0.353738, Prec: 89.0%, Time: 12.481
+Train Epoch: 52, Batch:200, 	Loss: 0.397691, Prec: 87.6%, Time: 24.755
+Train Epoch: 52, Batch:300, 	Loss: 0.388069, Prec: 87.9%, Time: 37.036
+Train Epoch: 52, Batch:391, 	Loss: 0.389735, Prec: 87.9%, Time: 48.211
+Testing...
+Test, Loss: 0.870666, Prec: 81.5%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 985.5; Bit per pixel: 0.962
+Training...
+Train Epoch: 53, Batch:100, 	Loss: 0.349302, Prec: 89.2%, Time: 12.453
+Train Epoch: 53, Batch:200, 	Loss: 0.352442, Prec: 89.0%, Time: 24.724
+Train Epoch: 53, Batch:300, 	Loss: 0.352403, Prec: 89.2%, Time: 36.985
+Train Epoch: 53, Batch:391, 	Loss: 0.353421, Prec: 89.2%, Time: 48.149
+Testing...
+Test, Loss: 0.869619, Prec: 81.9%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 981.1; Bit per pixel: 0.958
+Training...
+Train Epoch: 54, Batch:100, 	Loss: 0.378262, Prec: 88.4%, Time: 12.432
+Train Epoch: 54, Batch:200, 	Loss: 0.368309, Prec: 88.7%, Time: 24.718
+Train Epoch: 54, Batch:300, 	Loss: 0.357974, Prec: 89.1%, Time: 36.986
+Train Epoch: 54, Batch:391, 	Loss: 0.348236, Prec: 89.4%, Time: 48.162
+Testing...
+Test, Loss: 0.824381, Prec: 82.9%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 980.9; Bit per pixel: 0.958
+Training...
+Train Epoch: 55, Batch:100, 	Loss: 0.332587, Prec: 89.8%, Time: 12.468
+Train Epoch: 55, Batch:200, 	Loss: 0.331799, Prec: 89.9%, Time: 24.745
+Train Epoch: 55, Batch:300, 	Loss: 0.333262, Prec: 89.8%, Time: 37.044
+Train Epoch: 55, Batch:391, 	Loss: 0.335039, Prec: 89.8%, Time: 48.228
+Testing...
+Test, Loss: 0.762310, Prec: 83.2%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 981.3; Bit per pixel: 0.958
+Training...
+Train Epoch: 56, Batch:100, 	Loss: 0.317879, Prec: 90.4%, Time: 12.426
+Train Epoch: 56, Batch:200, 	Loss: 0.304513, Prec: 90.8%, Time: 24.699
+Train Epoch: 56, Batch:300, 	Loss: 0.304026, Prec: 90.7%, Time: 36.964
+Train Epoch: 56, Batch:391, 	Loss: 0.302335, Prec: 90.8%, Time: 48.151
+Testing...
+Test, Loss: 0.738741, Prec: 84.3%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 988.6; Bit per pixel: 0.965
+Training...
+Train Epoch: 57, Batch:100, 	Loss: 0.325933, Prec: 90.3%, Time: 12.432
+Train Epoch: 57, Batch:200, 	Loss: 0.318051, Prec: 90.6%, Time: 24.699
+Train Epoch: 57, Batch:300, 	Loss: 0.307091, Prec: 90.7%, Time: 36.967
+Train Epoch: 57, Batch:391, 	Loss: 0.309393, Prec: 90.8%, Time: 48.122
+Testing...
+Test, Loss: 0.756189, Prec: 84.0%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 985.8; Bit per pixel: 0.963
+Training...
+Train Epoch: 58, Batch:100, 	Loss: 0.234425, Prec: 92.8%, Time: 12.447
+Train Epoch: 58, Batch:200, 	Loss: 0.262496, Prec: 92.1%, Time: 24.733
+Train Epoch: 58, Batch:300, 	Loss: 0.271650, Prec: 91.9%, Time: 37.011
+Train Epoch: 58, Batch:391, 	Loss: 0.282771, Prec: 91.5%, Time: 48.182
+Testing...
+Test, Loss: 0.744886, Prec: 84.2%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 987.0; Bit per pixel: 0.964
+Training...
+Train Epoch: 59, Batch:100, 	Loss: 0.268943, Prec: 91.6%, Time: 12.467
+Train Epoch: 59, Batch:200, 	Loss: 0.281140, Prec: 91.3%, Time: 24.739
+Train Epoch: 59, Batch:300, 	Loss: 0.271218, Prec: 91.6%, Time: 37.014
+Train Epoch: 59, Batch:391, 	Loss: 0.290981, Prec: 91.1%, Time: 48.174
+Testing...
+Test, Loss: 0.736595, Prec: 84.4%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 983.5; Bit per pixel: 0.960
+Training...
+Train Epoch: 60, Batch:100, 	Loss: 0.300253, Prec: 91.0%, Time: 12.502
+Train Epoch: 60, Batch:200, 	Loss: 0.286438, Prec: 91.5%, Time: 24.770
+Train Epoch: 60, Batch:300, 	Loss: 0.296649, Prec: 91.0%, Time: 37.056
+Train Epoch: 60, Batch:391, 	Loss: 0.291836, Prec: 91.2%, Time: 48.230
+Testing...
+Test, Loss: 0.744395, Prec: 84.2%, time: 10.0
+Average number of colors per image: 16.0; 
+Average image size: 984.4; Bit per pixel: 0.961
